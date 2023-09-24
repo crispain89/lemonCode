@@ -1,2 +1,0 @@
-# lemonCode
-bootcamp LemonCode
