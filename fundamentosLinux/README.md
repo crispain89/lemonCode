@@ -1,10 +1,16 @@
 
 1. Crea mediante comandos de bash la siguiente jerarquía de ficheros y directorios
+
 foo/
+
 ├─ dummy/
+
 │  ├─ file1.txt
+
 │  ├─ file2.txt
+
 ├─ empty/
+
 Donde file1.txt debe contener el siguiente texto:
 
 Me encanta la bash!!
@@ -41,6 +47,7 @@ Si por el contrario la palabra aparece en la búsqueda, se mostrará el siguient
 $ ejercicio4.sh patata
 > La palabra "patata" aparece 3 veces
 > Aparece por primera vez en la línea 27
+*Ejecutaremos un Script  que tiene un URL y por parámetro le pasaremos la palabra que quiere buscar*
 ![Alt text](image-4.png)
 5. OPCIONAL - Modifica el ejercicio anterior de forma que la URL de la página web se pase por parámetro y también verifique que la llamada al script sea correcta
 Si al invocar el script este no recibe dos parámetros (URL y palabra a buscar), se deberá de mostrar el siguiente mensaje:
@@ -52,6 +59,8 @@ Además, si la palabra sólo se encuentra una vez en el fichero, se mostrará el
 $ ejercicio5.sh https://lemoncode.net/ patata
 > La palabra "patata" aparece 1 vez
 > Aparece únicamente en la línea 27
+
+*Ejecutaremos el Script y le pasaremos dos paramentros el $1 será la URL  y el $2 será la palabra a buscar.*
 ![Alt text](image-5.png)
 
-Carpeta con los scripts para poder ver el código.
+Carpeta con los [Scripts](./script/) para poder ver el código.
